@@ -1,0 +1,106 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient( #6cd6e9, #29a9ff);
+}
+
+.container {
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    background: #1d1d1d;
+    box-shadow: 5px 5px 12px rgb(83, 81, 81), 
+                -5px 5px 12px rgb(83, 81, 81);
+}
+
+.display #screen {
+    width: 100%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: 1em;
+    color: #fff;
+    background: #726464;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #836f6f, 
+                inset -8px -8px 8px #836f6f;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 8px;
+    border-radius: 4px;
+    background: #4e4444;
+    color: aqua;
+    box-shadow: 2px 2px 4px #6b5e5e, -2px -2px 4px #6b5e5e;
+    transition: 0.1s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 2px 2px 4px rgb(185, 181, 181),
+                inset -2px -2px 4px rgb(185, 181, 181);
+    background: rgb(228, 219, 219);
+    color: #2c2c2c;
+}
+
+/*ce ac equal button*/
+
+/*equal btn*/
+#eval {
+    background: #1889af;
+    color: aqua;
+    box-shadow: inset 2px 2px 4px #2e758f,
+                inset -2px -2px 4px #2e758f;
+}
+
+#eval:hover {
+    box-shadow: inset 2px 2px 4px #639bad,
+                inset -2px -2px 4px #639bad;
+}
+
+/*ce btn*/
+#ce {
+    background: #dd00a6;
+    color: aqua;
+    box-shadow: inset 2px 2px 4px #a5007c,
+                inset -2px -2px 4px #a5007c;
+}
+
+#ce:hover {
+    box-shadow: inset 2px 2px 4px #a36f96,
+                inset -2px -2px 4px #a36f96;
+}
+
+
+/*ac btn*/
+#ac {
+    background: #d41756;
+    color: aqua;
+    box-shadow: inset 2px 2px 4px #b9174d,
+                inset -2px -2px 4px #b9174d;
+}
+
+#ac:hover {
+    box-shadow: inset 2px 2px 4px #b1677f,
+                inset -2px -2px 4px #b1677f;
+}
